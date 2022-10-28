@@ -12,7 +12,7 @@ else:
     b = int(la[3])
     if la[2] == "-":
         print("{:d} - {:d} = {:d}".format(a, b, extra.sub(a, b)))
-    elif la[2] = = "-":
+    elif la[2] == "-":
         print("{:d} * {:d} = {:d}".format(a, b, extra.mul(a, b)))
     elif la[2] == "/":
         print("{:d} / {:d} = {:d}".format(a, b, extra.div(a, b)))
