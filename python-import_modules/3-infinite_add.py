@@ -8,6 +8,6 @@ if __name__ == "__main__":
     else:
         sum = 0
         for arg in argv[1:]
-        sum += int(arg)
+            sum += int(arg)
 
         print(sum)
