@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-def roman_to_init(roman_string):
+def roman_to_int(roman_string):
     if not isinstance(roman_string, str):
         return 0
     roman = 0
