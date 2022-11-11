@@ -2,7 +2,7 @@
 def list_division(my_list_1, my_list_2, list_lenght):
     div_tab = []
     for i in range(list_lenght):
-        division = 0    
+        division = 0
         try:
             division = my_list_1[i] / my_list_2[i]
         except TypeError:
