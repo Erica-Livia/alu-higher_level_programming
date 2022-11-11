@@ -8,7 +8,7 @@ class Square:
     def __init__(self, size=0):
         """Initialization of a new square"""
         self.__size = size
-        
+
     @property
     def size(self):
         """Size of the Square"""
@@ -25,7 +25,7 @@ class Square:
     def area(self):
         """returns the area of the square"""
         return (self.__size * self.__size)
-    
+
     def my_print(self):
         """it will print thr square with the #"""
         for i in range(0, self.__size):
