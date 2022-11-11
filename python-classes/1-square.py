@@ -3,4 +3,5 @@
 
 
 class Square:
+    """private instance size"""
     size = None
