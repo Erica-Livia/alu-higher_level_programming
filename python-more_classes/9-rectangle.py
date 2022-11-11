@@ -65,7 +65,7 @@ class Rectangle:
        return (cls(size, size))
 
     def __str__(self):
-         if self.__width == 0 or self.__height == 0:
+        if self.__width == 0 or self.__height == 0:
             return ("")
 
         rect = []
