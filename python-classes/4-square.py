@@ -1,5 +1,4 @@
-#!/usr/bin/python3
-"""Class Square"""
+#!/ur/bin/python3
 
 
 class Square:
