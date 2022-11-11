@@ -34,5 +34,5 @@ class Rectangle:
             raise TypeError("height musht be an integer")
         elif value < 0:
             raise ValueError("height must be >= 0")
-        return self._height
+        self._height = value
     
