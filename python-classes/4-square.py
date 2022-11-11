@@ -1,10 +1,11 @@
-#!/ur/bin/python3
+#!/usr/bin/python3
+"""Class Squaer"""
 
 
 class Square:
     """Square"""
 
-     def __init__(self, size=0):
+    def __init__(self, size=0):
         """Initialization of a new square"""
         self.__size = size
 
