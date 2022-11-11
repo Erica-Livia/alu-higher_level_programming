@@ -1,7 +1,4 @@
 #!/usr/bin/python3
-"""Class Squaer"""
-
-
 class Square:
     """Square"""
 
