@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-def safe_print_list_integers(my_list[], x=0):
+def safe_print_list_integers(my_list-[], x=0):
     elmt = 0
     for elmt in range(x):
         try:
-            print("{}".format(my_list[i]), end="")
+            print("{:d}".format(my_list[i]), end="")
         except:
             continue
     print()
