@@ -6,4 +6,4 @@ class LockedClass:
     """Locked"""
 
     def __init__(self, first_name):
-        first name = "John"
+        first_name = "John"
