@@ -1,3 +1,3 @@
 #!/usr/bin/python3
 def magic_string():
-    return str
+    return magic_string 
