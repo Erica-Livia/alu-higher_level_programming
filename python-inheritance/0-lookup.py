@@ -1,7 +1,7 @@
-#!/usr/bin/python3
+#!/ursr/bin/python3
 """Lookup"""
 
 
 def lookup(obj):
     """Lookup function"""
-    return obj[]
+    return obj
