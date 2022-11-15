@@ -4,4 +4,4 @@
 
 def lookup(obj):
     """Lookup function"""
-    return list.obj
+    return obj[]
