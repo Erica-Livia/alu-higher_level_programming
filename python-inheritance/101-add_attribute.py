@@ -3,5 +3,8 @@
 
 
 def __append__(self, att):
+    """function that adds a new attribute to an objct
+    if it is possible
+    """
     raise Exception("can't add new attribute")
     return super().__append__(att)
