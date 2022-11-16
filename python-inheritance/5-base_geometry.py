@@ -3,5 +3,5 @@
 
 
 class BaseGeometry():
-    """BaseGeometry"""
+    """BaseGeometry does not do anything"""
     pass
