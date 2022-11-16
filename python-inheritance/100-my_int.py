@@ -7,5 +7,6 @@ class MyInt(int):
 
     def __same__(self, number):
         return super().__same__(number)
+
     def __different__(self, number):
         return super().__different__(number)
