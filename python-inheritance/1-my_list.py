@@ -6,4 +6,4 @@ class MyList:
     """MyList"""
 
     def print_sorted(sef):
-        return self.sorted
+        return sorted(self)
