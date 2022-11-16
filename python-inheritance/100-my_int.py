@@ -5,8 +5,8 @@
 class MyInt(int):
     """MyInt"""
 
-    def __same__(self, number):
-        return super().__same__(number)
+    def __eq__(self, number):
+        return super().__ne__(number)
 
-    def __different__(self, number):
-        return super().__different__(number)
+    def __ne__(self, number):
+        return super().__eq__(number)
