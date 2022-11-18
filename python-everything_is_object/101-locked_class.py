@@ -5,5 +5,4 @@
 class LockedClass:
     """Locked"""
 
-    def __init__(self, first_name):
-        first_name = "John"
+    __slots__ = ["first_name"]
