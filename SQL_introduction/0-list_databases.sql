@@ -1,2 +1,2 @@
-#script that creates a database 
+/*script that creates a database*/
 SELECT * FROM DB
