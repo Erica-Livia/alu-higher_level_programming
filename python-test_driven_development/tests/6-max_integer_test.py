@@ -16,7 +16,7 @@ class TestMaxInteger(unittest.TestCase):
 
     def test_max_at_beginning(self):
         max_at_beginning = [4, 3, 2, 1]
-        self.assrtEqual(max_integer(max_at_beginning), 4)
+        self.assertEqual(max_integer(max_at_beginning), 4)
 
     def test_empty_list(self):
         empty = []
