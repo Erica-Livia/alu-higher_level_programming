@@ -11,7 +11,7 @@ class TestMaxInteger(unittest.TestCase):
         self.assertEqual(max_integer(ordered), 4)
 
     def test_unordered_list(self):
-        unordered  [1, 2, 3, 4]
+        unordered = [1, 2, 3, 4]
         self.assertEqual(max_integer(unordered), 4)
 
     def test_max_at_beginning(self):
