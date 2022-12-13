@@ -4,6 +4,7 @@ import json
 
 
 class Base:
+    """Base"""
     __nb_objects = 0
 
     def __init__(self, id=None):
@@ -12,10 +13,12 @@ class Base:
 
     @property
     def id(self):
+        """define id"""
         return self.__id
 
     @id.setter
     def id(self, value):
+        """"id value """
         if value is None:
             self.__id = self.__nb_objects
         else:
@@ -23,6 +26,7 @@ class Base:
 
     @staticmethod
     def to_json_string(list_dictionaries):
+        """dictionaries"""
         if list_dictionaries is None or \
                 len(list_dictionaries) == 0:
             return "[]"
@@ -31,6 +35,7 @@ class Base:
 
     @classmethod
     def save_to_file(cls, list_objs):
+        """ function that writes the JSON string representation of list_objs"""
         list_objs_dict = []
         with open(cls.__name__ + '.json', "w") as file:
             if list_objs is None or len(list_objs) == 0:
@@ -42,6 +47,7 @@ class Base:
 
     @staticmethod
     def from_json_string(json_string):
+        """This function returns the list of the JSON string representation"""
         if json_string is None or \
                 len(json_string) == 0:
             return list()
@@ -50,6 +56,7 @@ class Base:
 
     @classmethod
     def create(cls, **dictionary):
+        """This function returns an instance with all attributes already set"""
         if cls.__name__ == "Rectangle":
             dummy_instance = cls(4, 3)
         if cls.__name__ == "Square":
@@ -59,6 +66,7 @@ class Base:
 
     @classmethod
     def load_from_file(cls):
+        """This function returns a list of instances from a file"""
         try:
             with open(cls.__name__ + ".json", "r") as file:
                 serialized_content = file.read()
