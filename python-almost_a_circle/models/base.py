@@ -4,7 +4,8 @@ import json
 
 
 class Base:
-    """Base"""
+    """Base
+        id"""
     __nb_objects = 0
     def __init__(self, id=None):
         Base.__nb_objects += 1
