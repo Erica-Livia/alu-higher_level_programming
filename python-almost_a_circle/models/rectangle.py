@@ -5,7 +5,10 @@ from models.base import Base
 
 class Rectangle(Base):
     """Rectangle 
-       Attr: id, width, height, x and y
+       Attr: id,
+       width, 
+       height, 
+       x and y
     """
 
     def __init_(self, width, height, x=0, y=0, id=None):
