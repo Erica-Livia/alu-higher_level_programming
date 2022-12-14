@@ -4,9 +4,9 @@ from models.base import Base
 
 
 class Rectangle(Base):
-    """Rectangle 
+    """Rectangle
        Attr: id = number,
-       width = number, 
+       width = number,
        height = number
        x = number and y = number
     """
@@ -17,7 +17,8 @@ class Rectangle(Base):
         self.height = height
         self.x = x
         self.y = y
-    @property
+   
+   @property
     def width(self):
         """Width getter"""
         return self.__width
@@ -88,7 +89,7 @@ class Rectangle(Base):
         """returns [Rectangle] (<id>) <x>/<y> - <width>/<height>"""
         return "[Rectangle] ({}) {}/{} - {}/{}" \
             .format(self.id, self.x, self.y, self.width, self.height)
-    
+
 
     def update(self, *args, **kwargs):
         """assigns an argument"""
