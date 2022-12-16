@@ -13,4 +13,5 @@ if __name__ == "__main__":
     for i in result:
         if i[1] == argv[4]:
             print(i)
-    cur.c)
+    cur.close()
+    db.close()
