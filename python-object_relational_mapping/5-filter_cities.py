@@ -15,7 +15,7 @@ def my_safe_filter_states():
     cursor = db.cursor()
 
     cursor\
-    .execute("SELECT cities.name FROM cities\
+        .execute("SELECT cities.name FROM cities\
              JOIN states ON cities.state_id = states.id\
              AND states.name = %s\
              ORDER BY cities.id ASC", (sys.argv[4],))
@@ -29,6 +29,6 @@ def my_safe_filter_states():
     cursor.close()
     db.close()
 
-    
+
 if __name__ == "__main__":
     my_safe_filter_states()
