@@ -5,7 +5,7 @@ class Square extends require('./5-square') {
   }
 
     charPrint(c) {
-       if (c == undefined) {
+       if (c === undefined) {
         c = 'X';
        } 
        for (let i = 0; i < this.height; i++) {
